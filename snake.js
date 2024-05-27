@@ -26,7 +26,7 @@ function getRandomInt(min, max) {
 function loop() {
     requestAnimationFrame(loop);
     delay++;
-    if (delay == 15 - Math.floor(snake.maxCells/10)) {
+    if (delay == 15 + Math.floor(snake.maxCells/10)) {
         delay = 0;
         count = 0;
         context.clearRect(0, 0, canvas.width, canvas.height);
