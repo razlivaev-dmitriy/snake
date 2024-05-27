@@ -1,0 +1,43 @@
+body {
+    margin: 0; 
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    width: 200vh;
+    height: 100vh;
+}
+
+.flex {
+    position: absolute;
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.count {
+    color: white;
+    font: 20px;
+}
+
+/* .map {
+    width: 100vh;
+    height: 100vh;
+    
+}
+
+.snake {
+    left: 0px;
+    top: 0px;
+    background: #1B0773;
+    border: 1px black;
+    z-index: 1;
+    width: calc(100vh/21);
+    height: calc(100vh/21);
+    position: absolute;
+} */
