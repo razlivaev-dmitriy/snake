@@ -1,5 +1,6 @@
 body {
     margin: 0; 
+    font-size: 62.5%;
     background: white;
     display: flex;
     align-items: center;
@@ -22,7 +23,7 @@ canvas {
 
 .count {
     color: white;
-    font: 20px;
+    font: 5em;
 }
 
 /* .map {
